@@ -3,44 +3,41 @@ import "./Weather.css";
 
 export default function Weather() {
   return (
-    <div className="weather">
-      <main>
-        <h1 class="displayed-city" id="displayed-city">
-          London
-        </h1>
-        <div class="current-data">
-          <span class="displayed-emoji-left" id="icon-left">
-            ☀️
-          </span>
+    <div className="Weather">
+      <header className="Search">
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
 
-          <div class="current-temperature">
-            <span
-              class="displayed-temperature-value"
-              id="displayed-temperature-value"
-            ></span>
-            <span class="displayed-temperature-unit">20°C</span>
+      <main>
+        <h1 className="displayed-city">London</h1>
+        <div className="current-data row">
+          <span className="displayed-emoji-left col-4 text-center">☀️</span>
+
+          <div className="current-temperature col-4">
+            <span className="displayed-temperature-value">20</span>
+            <span className="displayed-temperature-unit">°C</span>
           </div>
 
-          <span class="displayed-emoji-right" id="icon-right">
-            ☀️
-          </span>
+          <span className="displayed-emoji-right col-4 text-center">☀️</span>
         </div>
         <div>
           <p>
-            <span id="day-and-time">Saturday, 24th August</span>,{" "}
-            <span id="conditions">Sunshine</span>
+            <span className="date-time">Saturday, 24th August</span>,{" "}
+            <span className="conditions">Sunshine</span>
             <br />
-            Humidity:{" "}
-            <span class="highlighted-data" id="humidity">
-              80%
-            </span>
-            , Wind:
-            <span class="highlighted-data" id="wind-speed">
-              26mph
-            </span>
+            Humidity: <span className="humidity text-danger"> 80%</span>, Wind:
+            <span className="wind-speed high text-danger"> 26mph</span>
           </p>
         </div>
-        <div class="weather-forecast" id="forecast"></div>
       </main>
     </div>
   );
