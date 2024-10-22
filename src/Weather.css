@@ -12,7 +12,6 @@
   font-size: 40px;
 }
 .current-temperature {
-  display: flex;
   font-size: 60px;
 }
 .displayed-temperature-value {
