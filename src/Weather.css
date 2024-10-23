@@ -74,3 +74,7 @@ input:hover {
 .search-form {
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
