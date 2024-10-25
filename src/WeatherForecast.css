@@ -1,0 +1,40 @@
+.weatherForecast {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.col:hover {
+  background: #fae3d9;
+}
+
+.weather-forecast-day {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.forecast-temperature-max {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  color: #61c0bf;
+}
+.forecast-temperature-min {
+  padding: 5px;
+  font-size: 15px;
+  color: #61c0bf;
+}
+
+.forecast-icon {
+  font-size: 40px;
+}
