@@ -30,6 +30,9 @@ p .humidity,
 .displayed-temperature-unit {
   font-size: 20px;
   margin-top: 20px;
+  position: relative;
+  top: -30px;
+  right: -5px;
 }
 
 .displayed-emoji-right {
