@@ -9,13 +9,29 @@ export default function App() {
         <footer>
           <p>
             This project was coded by{" "}
-            <a href="https://github.com/Elsabordeaux">Alana Jackson</a> and is
-            open-sourced on{" "}
-            <a href="https://github.com/Elsabordeaux/alanas-react-weather-app">
+            <a
+              href="https://github.com/Elsabordeaux"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Alana Jackson
+            </a>{" "}
+            and is open-sourced on{" "}
+            <a
+              href="https://github.com/Elsabordeaux/alanas-react-weather-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
             </a>{" "}
             and hosted on{" "}
-            <a href="https://alanas-react-weather-app.netlify.app/">Netlify</a>
+            <a
+              href="https://alanas-react-weather-app.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
           </p>
         </footer>
       </div>

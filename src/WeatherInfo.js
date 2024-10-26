@@ -1,7 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import TemperatureDisplay from "./TemperatureDisplay";
-
+import "./Weather.css";
 export default function WeatherInfo(props) {
   return (
     <main className="WeatherInfo">
@@ -26,13 +26,9 @@ export default function WeatherInfo(props) {
           </span>
           <span className="text-capitalize">{props.info.description}</span>
           <br />
-          Humidity:{" "}
-          <span className="humidity text-danger"> {props.info.humidity}%</span>,
+          Humidity: <span className="humidity"> {props.info.humidity}%</span>,
           Wind:
-          <span className="wind-speed high text-danger">
-            {" "}
-            {Math.round(props.info.wind)}mph
-          </span>
+          <span className="wind-speed"> {Math.round(props.info.wind)}mph</span>
         </p>
       </div>
     </main>

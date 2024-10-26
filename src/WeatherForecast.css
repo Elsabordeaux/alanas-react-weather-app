@@ -1,12 +1,6 @@
 .weatherForecast {
-  display: flex;
-  justify-content: space-between;
   text-align: center;
   padding: 10px 0;
-}
-
-.row {
-  display: flex;
 }
 
 .col {
@@ -36,5 +30,5 @@
 }
 
 .forecast-icon {
-  font-size: 40px;
+  font-size: 50px;
 }
